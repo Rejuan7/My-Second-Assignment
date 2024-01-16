@@ -363,7 +363,46 @@ select {
               height: 64px;
 }
 
+/* bonous section */
+
+.bonous{
+              border: 2px solid red;
+              margin-top: 100px;
+              padding: 20px;
+              height: 300px;
+              background-color: aquamarine;
+}
+.bonous h3{
+              font-size: 2rem;
+              font-weight: 600;
+}
+.bonous input, select{
+              width: 174px;
+              height: 52px;
+              border-radius: 8px;
+              background: #FFF;
+              border: 0;
+              padding-left: 10px;
+              border: 1px solid;
+}
+.bonous button{
+              border-radius: 8px;
+              background: #FF5400;
+              width: 174px;
+              height: 52px;
+              border: 0;
+              padding: 10px;
+}
+.bonous .button-name{
+              color: #FFF;
+              text-align: center;
+              font-size: 1rem;
+              font-weight: 700;
+              padding-top: 16px;
+}
+
 /* news-letter section */
+
 .news-letter {
               display: flex;
               gap: 24px;
