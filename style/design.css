@@ -112,6 +112,7 @@ select {
               border-radius: 8px;
               background: #FFF;
               border: 0;
+              padding-left: 10px;
 }
 
 .input-field-container button {
@@ -285,9 +286,7 @@ select {
               width: 64px;
               height: 64px;
 }
-/* .why-choose-us .card3{
-              justify-content: center;
-} */
+
 .card3 {
               border-radius: 16px;
               border: 1px solid rgba(233, 68, 68, 0.20);
@@ -299,7 +298,104 @@ select {
               margin-left: 220px;
 
 }
+
+.card3 h4 {
+              color: #131318;
+              font-size: 24px;
+              font-weight: 800;
+}
+
+.card3 p {
+              color: #5A5A5D;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 26px;
+}
+
 .card3-img {
               width: 64px;
               height: 64px;
+}
+
+/* news-letter section */
+.news-letter {
+              display: flex;
+              gap: 24px;
+              margin-top: 100px;
+}
+
+.news-field {
+              width: 474px;
+              height: 422px;
+              border-radius: 16px;
+              border: 1px solid #FF5400;
+              padding: 35px;
+
+}
+
+.news-field h4 {
+              color: #131318;
+              font-size: 24px;
+              font-weight: 800;
+              margin-bottom: 24px;
+}
+
+.news-field p {
+              color: #5A5A5D;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 26px;
+              margin-bottom: 24px;
+}
+
+.news-letter img {
+              width: 672px;
+              height: 495px;
+              position: relative;
+}
+
+.news-letter input {
+              margin-bottom: 24px;
+              width: 300px;
+              height: 52px;
+              border: 0;
+              border-radius: 8px;
+              padding-left: 10px;
+              background: rgba(19, 19, 24, 0.05);
+}
+
+.news-letter button {
+              margin-bottom: 24px;
+              width: 300px;
+              height: 52px;
+              border: 0;
+              border-radius: 8px;
+              background: #FF5400;
+              color: #FFF;
+}
+
+.rotate p{
+              width: 324px;
+              height: 120px;
+              padding-top: 20px;
+              text-align: center;
+              border-radius: 16px;
+              background: #FF5400;
+              transform: rotate(-19.628deg);
+              position: absolute;
+              right: 145px;
+              top: 3990px;
+}
+
+.rotate .travel-com {
+              color: #FFF; 
+              text-align: center;
+              font-size: 24px;
+              font-weight: 400;
+}
+
+.rotate .save-up-to {
+              color: #FFF;
+              font-size: 32px;
+              font-weight: 800;
 }
