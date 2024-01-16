@@ -224,6 +224,52 @@ select {
               margin-top: 24px;
               margin-bottom: 80px;
 }
+.maldives{
+               color: white; 
+              font-weight: 800;
+              font-size: 28;
+              position: absolute;
+              top: 1750px;
+              right: 900px;
+}
+.indonesia{
+              position: absolute;
+              top: 1750px;
+              right: 350px;
+              color: white;
+              font-weight: 800;
+              font-size: 28;
+}
+.srilanka{
+              color: white;
+              position: absolute;
+              top: 2100px;
+              right: 1000px; 
+}
+.north-america{
+              color: white;
+              position: absolute;
+              top: 2100px;
+              right: 600px;
+}
+.kashmir{
+              color: white;
+              position: absolute;
+              top: 2100px;
+              right: 270px; 
+}
+.bandarban{
+              color: white;
+              position: absolute;
+              top: 2470px;
+              right: 350px;
+}
+.bangladesh{
+              color: white;
+              position: absolute;
+              top: 2470px;
+              right: 900px;
+}
 
 /* why choose us section */
 .choose-article {
