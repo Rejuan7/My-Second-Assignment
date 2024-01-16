@@ -53,7 +53,7 @@ nav li a .home {
 }
 
 .nav-title {
-              font-size: 36px;
+              font-size: 2.1rem;
               font-weight: 800;
               margin: 0;
 }
@@ -80,7 +80,7 @@ nav li a .home {
 
 .banner-heading {
               color: #FFF;
-              font-size: 64px;
+              font-size: 4rem;
               font-weight: 800;
               padding-top: 105px;
               margin: 0px;
@@ -88,7 +88,7 @@ nav li a .home {
 
 .banner-description {
               color: #FFF;
-              font-size: 16px;
+              font-size: 1rem;
               font-weight: 400;
               line-height: 26px;
               padding-top: 25px;
@@ -97,7 +97,7 @@ nav li a .home {
 
 .input-field-container {
               display: flex;
-              padding: 16px;
+              padding: 1rem;
               margin: 48px 185px;
               gap: 24px;
               justify-content: center;
@@ -127,7 +127,7 @@ select {
 .button-name {
               color: #FFF;
               text-align: center;
-              font-size: 16px;
+              font-size: 1rem;
               font-weight: 700;
               padding-top: 16px;
 }
@@ -526,16 +526,31 @@ footer {
                             margin: 10px;
               }
               header{
-                            margin: 0px;
+                            margin: 10px;
               }
               .banner{
                             width: 100%;
                             height: 100%;
-                            background-repeat: no-repeat;
               }
+             
+              nav > ul{
+                            display: none;
+              }
+             
+
         .input-field-container{
              flex-direction: column;
         }
+        .input-field-container input,
+         select{
+              height: 50px;
+              width: auto;
+         } 
+         .input-field-container button {
+              height: 50px;
+              width: auto;
+         }       
+
         .tour-img{
               width: 100%;
         }       
@@ -581,10 +596,15 @@ footer {
         }
 
         footer{
-              width: 100%;
-              height: 309px;
-              padding: 0;
+              width: auto;
+              height: 100%;
+              padding: 20px;
               margin-left: 12px;
+              margin-right: 12px;
+              margin-bottom: 50px;
+        }
+        .footer-hr{
+              width: auto;
         }
        
 }
